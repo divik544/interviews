@@ -1,4 +1,4 @@
-<p align="center"><img src="/images/InterviewsRepository.jpg?raw=true"></p>
+
 
 # Interviews
 > Your personal guide to Software Engineering technical interviews. Video
@@ -7,9 +7,6 @@
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
-## Translations
-
-- [简体中文](./README-zh-cn.md)
 
 ## Table of Contents
 - [YouTube](#youtube)
@@ -36,25 +33,7 @@
 ## Articles
 * [Starting Work](https://medium.com/@Naughton/starting-work-b06e10f6007e)
 
-## Online Judges
-* [LeetCode](https://leetcode.com/)
-* [Virtual Judge](https://vjudge.net/)
-* [CareerCup](https://www.careercup.com/)
-* [HackerRank](https://www.hackerrank.com/)
-* [CodeFights](https://codefights.com/)
-* [Kattis](https://open.kattis.com/)
-* [HackerEarth](https://www.hackerearth.com)
-* [Codility](https://codility.com/programmers/lessons/1-iterations/)
-* [Code Forces](http://codeforces.com/)
-* [Code Chef](https://www.codechef.com/)
-* [Sphere Online Judge - SPOJ](http://www.spoj.com/)
-* [InterviewBit](https://www.interviewbit.com/)
 
-## Live Coding Practice
-* [Pramp](https://www.pramp.com/ref/gt4)
-* [Gainlo](http://www.gainlo.co/#!/)
-* [Refdash](https://refdash.com/)
-* [Interviewing.io](https://www.interviewing.io/)
 
 ## Data Structures
 ### Linked List
@@ -121,26 +100,6 @@
 
 ![Alt text](/images/trie.png?raw=true "Trie")
 
-### Fenwick Tree
-* A Fenwick tree, sometimes called a binary indexed tree, is a tree in concept, but in practice is implemented as an implicit data
-  structure using an array. Given an index in the array representing a vertex, the index of a vertex's parent or child is calculated
-  through bitwise operations on the binary representation of its index. Each element of the array contains the pre-calculated sum of
-  a range of values, and by combining that sum with additional ranges encountered during an upward traversal to the root, the prefix
-  sum is calculated
-* Time Complexity:
-  * Range Sum: `O(log(n))`
-  * Update: `O(log(n))`
-
-![Alt text](/images/fenwickTree.png?raw=true "Fenwick Tree")
-
-### Segment Tree
-* A Segment tree, is a tree data structure for storing intervals, or segments. It allows querying which of the stored segments contain
-  a given point
-* Time Complexity:
-  * Range Query: `O(log(n))`
-  * Update: `O(log(n))`
-
-![Alt text](/images/segmentTree.png?raw=true "Segment Tree")
 
 ### Heap
 * A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A is a parent node of
@@ -193,6 +152,7 @@ or equal to those of the children and the lowest key is in the root node
   * Best Case: `O(nlog(n))`
   * Worst Case: `O(n^2)`
   * Average Case: `O(nlog(n))`
+  * []()
 
 ![Alt text](/images/quicksort.gif?raw=true "Quicksort")
 
@@ -207,23 +167,7 @@ or equal to those of the children and the lowest key is in the root node
 
 ![Alt text](/images/mergesort.gif?raw=true "Mergesort")
 
-#### Bucket Sort
-* *Bucket Sort* is a sorting algorithm that works by distributing the elements of an array into a number of buckets. Each bucket
-  is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm
-* Time Complexity:
-  * Best Case: `Ω(n + k)`
-  * Worst Case: `O(n^2)`
-  * Average Case:`Θ(n + k)`
 
-![Alt text](/images/bucketsort.png?raw=true "Bucket Sort")
-
-#### Radix Sort
-* *Radix Sort* is a sorting algorithm that like bucket sort, distributes elements of an array into a number of buckets. However, radix
-  sort differs from bucket sort by 're-bucketing' the array after the initial pass as opposed to sorting each bucket and merging
-* Time Complexity:
-  * Best Case: `Ω(nk)`
-  * Worst Case: `O(nk)`
-  * Average Case: `Θ(nk)`
 
 ### Graph Algorithms
 
@@ -325,30 +269,6 @@ or equal to those of the children and the lowest key is in the root node
                 x ^= y;
              ```
 
-## Runtime Analysis
-
-#### Big O Notation
-* *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst case scenarios
-
-![Alt text](/images/bigO.png?raw=true "Theta Notation")
-
-#### Little O Notation
-* *Little O Notation* is also used to describe an upper bound of a particular algorithm; however, Little O provides a bound
-  that is not asymptotically tight
-
-#### Big Ω Omega Notation
-* *Big Omega Notation* is used to provide an asymptotic lower bound on a particular algorithm
-
-![Alt text](/images/bigOmega.png?raw=true "Theta Notation")
-
-#### Little ω Omega Notation
-* *Little Omega Notation* is used to provide a lower bound on a particular algorithm that is not asymptotically tight
-
-#### Theta Θ Notation
-* *Theta Notation* is used to provide a bound on a particular algorithm such that it can be "sandwiched" between
-  two constants (one for an upper limit and one for a lower limit) for sufficiently large values
-
-![Alt text](/images/theta.png?raw=true "Theta Notation")
 
 ## Video Lectures
 * Data Structures
@@ -359,162 +279,7 @@ or equal to those of the children and the lowest key is in the root node
     * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
     * [UC Berkeley Algorithms](https://archive.org/details/ucberkeley-webcast?&and[]=subject%3A%22Computer%20Science%22&and[]=subject%3A%22CS%22)
 
-## Interview Books
-* [Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
-* [Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
-* [Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
-* [Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&keywords=Introduction+to+Algorithms)
 
-## Computer Science News
-* [Hacker News](https://news.ycombinator.com/)
-* [Lobsters](https://lobste.rs/)
 
-## Directory Tree
 
-```
-.
-├── Array
-│   ├── bestTimeToBuyAndSellStock.java
-│   ├── findTheCelebrity.java
-│   ├── gameOfLife.java
-│   ├── increasingTripletSubsequence.java
-│   ├── insertInterval.java
-│   ├── longestConsecutiveSequence.java
-│   ├── maximumProductSubarray.java
-│   ├── maximumSubarray.java
-│   ├── mergeIntervals.java
-│   ├── missingRanges.java
-│   ├── productOfArrayExceptSelf.java
-│   ├── rotateImage.java
-│   ├── searchInRotatedSortedArray.java
-│   ├── spiralMatrixII.java
-│   ├── subsetsII.java
-│   ├── subsets.java
-│   ├── summaryRanges.java
-│   ├── wiggleSort.java
-│   └── wordSearch.java
-├── Backtracking
-│   ├── androidUnlockPatterns.java
-│   ├── generalizedAbbreviation.java
-│   └── letterCombinationsOfAPhoneNumber.java
-├── BinarySearch
-│   ├── closestBinarySearchTreeValue.java
-│   ├── firstBadVersion.java
-│   ├── guessNumberHigherOrLower.java
-│   ├── pow(x,n).java
-│   └── sqrt(x).java
-├── BitManipulation
-│   ├── binaryWatch.java
-│   ├── countingBits.java
-│   ├── hammingDistance.java
-│   ├── maximumProductOfWordLengths.java
-│   ├── numberOf1Bits.java
-│   ├── sumOfTwoIntegers.java
-│   └── utf-8Validation.java
-├── BreadthFirstSearch
-│   ├── binaryTreeLevelOrderTraversal.java
-│   ├── cloneGraph.java
-│   ├── pacificAtlanticWaterFlow.java
-│   ├── removeInvalidParentheses.java
-│   ├── shortestDistanceFromAllBuildings.java
-│   ├── symmetricTree.java
-│   └── wallsAndGates.java
-├── DepthFirstSearch
-│   ├── balancedBinaryTree.java
-│   ├── battleshipsInABoard.java
-│   ├── convertSortedArrayToBinarySearchTree.java
-│   ├── maximumDepthOfABinaryTree.java
-│   ├── numberOfIslands.java
-│   ├── populatingNextRightPointersInEachNode.java
-│   └── sameTree.java
-├── Design
-│   └── zigzagIterator.java
-├── DivideAndConquer
-│   ├── expressionAddOperators.java
-│   └── kthLargestElementInAnArray.java
-├── DynamicProgramming
-│   ├── bombEnemy.java
-│   ├── climbingStairs.java
-│   ├── combinationSumIV.java
-│   ├── countingBits.java
-│   ├── editDistance.java
-│   ├── houseRobber.java
-│   ├── paintFence.java
-│   ├── paintHouseII.java
-│   ├── regularExpressionMatching.java
-│   ├── sentenceScreenFitting.java
-│   ├── uniqueBinarySearchTrees.java
-│   └── wordBreak.java
-├── HashTable
-│   ├── binaryTreeVerticalOrderTraversal.java
-│   ├── findTheDifference.java
-│   ├── groupAnagrams.java
-│   ├── groupShiftedStrings.java
-│   ├── islandPerimeter.java
-│   ├── loggerRateLimiter.java
-│   ├── maximumSizeSubarraySumEqualsK.java
-│   ├── minimumWindowSubstring.java
-│   ├── sparseMatrixMultiplication.java
-│   ├── strobogrammaticNumber.java
-│   ├── twoSum.java
-│   └── uniqueWordAbbreviation.java
-├── LinkedList
-│   ├── addTwoNumbers.java
-│   ├── deleteNodeInALinkedList.java
-│   ├── mergeKSortedLists.java
-│   ├── palindromeLinkedList.java
-│   ├── plusOneLinkedList.java
-│   ├── README.md
-│   └── reverseLinkedList.java
-├── Queue
-│   └── movingAverageFromDataStream.java
-├── README.md
-├── Sort
-│   ├── meetingRoomsII.java
-│   └── meetingRooms.java
-├── Stack
-│   ├── binarySearchTreeIterator.java
-│   ├── decodeString.java
-│   ├── flattenNestedListIterator.java
-│   └── trappingRainWater.java
-├── String
-│   ├── addBinary.java
-│   ├── countAndSay.java
-│   ├── decodeWays.java
-│   ├── editDistance.java
-│   ├── integerToEnglishWords.java
-│   ├── longestPalindrome.java
-│   ├── longestSubstringWithAtMostKDistinctCharacters.java
-│   ├── minimumWindowSubstring.java
-│   ├── multiplyString.java
-│   ├── oneEditDistance.java
-│   ├── palindromePermutation.java
-│   ├── README.md
-│   ├── reverseVowelsOfAString.java
-│   ├── romanToInteger.java
-│   ├── validPalindrome.java
-│   └── validParentheses.java
-├── Tree
-│   ├── binaryTreeMaximumPathSum.java
-│   ├── binaryTreePaths.java
-│   ├── inorderSuccessorInBST.java
-│   ├── invertBinaryTree.java
-│   ├── lowestCommonAncestorOfABinaryTree.java
-│   ├── sumOfLeftLeaves.java
-│   └── validateBinarySearchTree.java
-├── Trie
-│   ├── addAndSearchWordDataStructureDesign.java
-│   ├── implementTrie.java
-│   └── wordSquares.java
-└── TwoPointers
-    ├── 3Sum.java
-    ├── 3SumSmaller.java
-    ├── mergeSortedArray.java
-    ├── minimumSizeSubarraySum.java
-    ├── moveZeros.java
-    ├── removeDuplicatesFromSortedArray.java
-    ├── reverseString.java
-    └── sortColors.java
 
-18 directories, 124 files
-```
